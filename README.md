@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Project Summary
+
+I created this project using Next.js, tanstack/react-table, tanstack/react-query, and shadcn/ui. Some libraries were new to me. 
+
+I implemented the following features:  
+1. Sorting by product title, description, or category.  
+2. Column-based filtering for title, description, or category.  
+3. A global search input for filtering across all columns.  
+4. Pagination for handling large datasets.  
+
+The main challenge was understanding how these libraries work together, especially managing React Table with features like search, filtering, and pagination. It was tricky initially but a great learning experience!
+
 ## Getting Started
 
 First, run the development server:
