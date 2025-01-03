@@ -196,7 +196,7 @@ const UserTable = () => {
           <div>Page</div>
           <strong>
             {Math.floor(pagination.skip / pagination.limit) + 1} of{" "}
-            {Math.ceil(dataQuery.data?.rowCount || 10 / pagination.limit)}
+            {Math.ceil(dataQuery.data?.rowCount / pagination.limit)}
           </strong>
         </span>
         <span className="flex items-center gap-1">
